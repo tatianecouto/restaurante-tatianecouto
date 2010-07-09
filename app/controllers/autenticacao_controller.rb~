@@ -1,0 +1,4 @@
+class AutenticacaoController < ApplicationController
+
+	def login
+	end

@@ -1,0 +1,143 @@
+Script started on Mon 05 Jul 2010 10:03:37 PM BRT
+]0;rr1443@caelum126-11: ~/restauranterr1443@caelum126-11:~/restaurante$ script/servergedit config/routes.rbirb[Kcd restaurante[1Pmysql -u rootscrip/consolecd restaurante[1Pmysql -u rootcd[Kscript/servercd restaurante[1Pscript/server[K[K[K[K[K[K[K[K[K[K[K[K[Kcd restaurante[1Pscript/servercd restaurante[1Pscript/servercd restaurante[1Pscript/servercd restaurante[1Pscript/servercd restauranteataurantestaurante[1Pscript/servercd restaurante[1Pscript/servercd restaurante[1Pscript/servercd restaurante[1Pscript/servercd restaurante[Kcdmysql -u rootcd restaurante[1Pscrip/consolemysql -u rootcd restauranteirb[Kgedit config/routes.rb[9Pscript/server[Kscript/servergedit config/routes.rbirb[Kcd restauranteirb[Kcd restaurante[1Pmysql -u rootscrip/consolecd restaurante[1Pmysql -u rootcd[K[Kcd restaurante[1Pscript/servercd restaurante[1Pscript/servercd restaurante[1Pscript/servercd restaurante[1Pscript/servercd restaurante[K[K[K[K[K[K[K[K[K[K[K[K[K[Krake db:[K[K[K[K[K[K[K[Kcd reataurante[1Pmysql -u root[K[3Pcdscript/servercd restaurante[1Pscript/servergenerate controller restaurantes[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Pcd restaurante[1Pscript/servergenerate controller HelloWorld[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+[00m[01;34mapp[00m  [01;34mconfig[00m  [00mconsole[00m  [01;34mdb[00m  [01;34mdoc[00m  [00mgenerate[00m  [01;34mlib[00m  [01;34mlog[00m  [01;34mpublic[00m  [00mRakefile[00m  [00mREADME[00m  [01;34mscript[00m  [01;34mtest[00m  [01;34mtmp[00m  [01;34mvendor[00m
+[m]0;rr1443@caelum126-11: ~/restauranterr1443@caelum126-11:~/restaurante$ ls[K[Kscaffold nome nome:string
+bash: scaffold: command not found
+]0;rr1443@caelum126-11: ~/restauranterr1443@caelum126-11:~/restaurante$ scaffold nome nome:stringls[Kscript/servergedit config/routes.rbirb[Kcd restaurante[1Pmysql -u rootscrip/consolecd restaurante[1Pmysql -u rootcd[K[Kcd restaurante[1Pscript/servercd restaurante[1Pscript/servercd restaurante[1Pscript/servercd restaurante[1Pscript/servercd restaurante[1Pscript/server[Kcd reataurante[1Pmysql -u root[K[3Pcdscript/server[K[K[K[K[K[K[K[K[K[K[K[K[Kcd restaurante[1Pscript/servergenerate controller restaurantes[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Pcd restaurante[1Pscript/server[K[K[K[K[K[K[K[K[K[K[K[K[Kir[K[Kscript/generate controller HelloWorldconsole [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kscaffold nomes nome:string
+bash: scaffold: command not found
+]0;rr1443@caelum126-11: ~/restauranterr1443@caelum126-11:~/restaurante$ scaffold nomes nome:string[1P nome:stringls[Kscript/server[K[K[K[K[K[K[K[K[K[K[K[K[Kgedit config/routes.rbirb[Kcd restaurante[1Pmysql -u rootscrip/consolecd restaurante[1Pmysql -u rootcd restaurante[1Pscrip/console[K[K[K[K[K[K[Kgenerate nome nome:string[K[K[K[K[K[K[K[K[K[K[K[Ks
+bash: scrip/generate: No such file or directory
+]0;rr1443@caelum126-11: ~/restauranterr1443@caelum126-11:~/restaurante$ scrip/generate nomesaffold nomes nome:string[6Prip/generate nomes[C[1@t[C[C[C[C[C[C[C[C[C[C nomess nomesc nomesa nomesf nomesf nomeso nomesl nomesd nomes[C[C[C[C[C[K nome:string
+      exists  app/models/
+      exists  app/controllers/
+      exists  app/helpers/
+      create  app/views/nomes
+      exists  app/views/layouts/
+      exists  test/functional/
+      exists  test/unit/
+      exists  test/unit/helpers/
+      exists  public/stylesheets/
+      create  app/views/nomes/index.html.erb
+      create  app/views/nomes/show.html.erb
+      create  app/views/nomes/new.html.erb
+      create  app/views/nomes/edit.html.erb
+      create  app/views/layouts/nomes.html.erb
+      create  public/stylesheets/scaffold.css
+      create  app/controllers/nomes_controller.rb
+      create  test/functional/nomes_controller_test.rb
+      create  app/helpers/nomes_helper.rb
+      create  test/unit/helpers/nomes_helper_test.rb
+       route  map.resources :nomes
+  dependency  model
+      exists    app/models/
+      exists    test/unit/
+      exists    test/fixtures/
+      create    app/models/nome.rb
+      create    test/unit/nome_test.rb
+      create    test/fixtures/nomes.yml
+      exists    db/migrate
+      create    db/migrate/20100706011111_create_nomes.rb
+]0;rr1443@caelum126-11: ~/restauranterr1443@caelum126-11:~/restaurante$ rake dbm[K:migrate
+(in /home/rr1443/restaurante)
+==  CreateNomes: migrating ====================================================
+-- create_table(:nomes)
+   -> 0.0073s
+==  CreateNomes: migrated (0.0075s) ===========================================
+
+]0;rr1443@caelum126-11: ~/restauranterr1443@caelum126-11:~/restaurante$ rake db:migratescript/generate scaffold nome nome:string[21P/generate nomesaffold nomes nome:string[1P nome:stringls[K[Kgedit config/routes.rbirb[Kcd restaurante[1Pmysql -u rootscrip/consolecd restaurante[1Pmysql -u rootcd[K[Kcd restaurante[1Pscript/servercd restaurante[1Pscript/servercd restaurante[1Pscript/servercd restaurante[1Pscript/server[Kcd reataurante[1Pmysql -u root[K[3Pcdscript/server[Kcd restaurante[1Pscript/servergenerate controller restaurantes[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Pcd restaurante[Kscript/generate controller HelloWorldconsole [Krestaurante.qualificacao?[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Prake db:migratescript/console restaurante.qualificacao?Qualificacao.restaurante?[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cirb[KQualificacao.restaurante?r = Qualificacao.restaurantequalificacoes.restauranteirb[Kscript/console consoleirb[Kp = Prato.new :nome[11Pr.valid?ake db:migrate[C[K[K[K[K[K[K[K[K[K[Kroutes
+(in /home/rr1443/restaurante)
+    nomes GET    /nomes(.:format)                   {:action=>"index", :controller=>"nomes"}
+          POST   /nomes(.:format)                   {:action=>"create", :controller=>"nomes"}
+ new_nome GET    /nomes/new(.:format)               {:action=>"new", :controller=>"nomes"}
+edit_nome GET    /nomes/:id/edit(.:format)          {:action=>"edit", :controller=>"nomes"}
+     nome GET    /nomes/:id(.:format)               {:action=>"show", :controller=>"nomes"}
+          PUT    /nomes/:id(.:format)               {:action=>"update", :controller=>"nomes"}
+          DELETE /nomes/:id(.:format)               {:action=>"destroy", :controller=>"nomes"}
+  bananas        /bananas                           {:action=>"new", :controller=>"restaurantes"}
+                 /:controller/:action/:id           
+                 /:controller/:action/:id(.:format) 
+]0;rr1443@caelum126-11: ~/restauranterr1443@caelum126-11:~/restaurante$ rake routesdb:migratescript/generate scaffold nome nome:string[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K--skip-migration cliente nome:string idade:integer
+      exists  app/models/
+      exists  app/controllers/
+      exists  app/helpers/
+      create  app/views/clientes
+      exists  app/views/layouts/
+      exists  test/functional/
+      exists  test/unit/
+      exists  test/unit/helpers/
+      exists  public/stylesheets/
+      create  app/views/clientes/index.html.erb
+      create  app/views/clientes/show.html.erb
+      create  app/views/clientes/new.html.erb
+      create  app/views/clientes/edit.html.erb
+      create  app/views/layouts/clientes.html.erb
+   identical  public/stylesheets/scaffold.css
+      create  app/controllers/clientes_controller.rb
+      create  test/functional/clientes_controller_test.rb
+      create  app/helpers/clientes_helper.rb
+      create  test/unit/helpers/clientes_helper_test.rb
+       route  map.resources :clientes
+  dependency  model
+      exists    app/models/
+      exists    test/unit/
+      exists    test/fixtures/
+        skip    app/models/cliente.rb
+   identical    test/unit/cliente_test.rb
+        skip    test/fixtures/clientes.yml
+]0;rr1443@caelum126-11: ~/restauranterr1443@caelum126-11:~/restaurante$ script/generate scaffold --skip-migration cliente nome:string idade:integer[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kqualificacao lcinete[K[K[K[K[K[K[Kclietne[K[K[K[K[K[K[Kclpie[K[K[K[K[Kcliente_id:integer restaurante_id:i nteger[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci nteger nota:float valor_gasto:float
+      exists  app/models/
+      exists  app/controllers/
+      exists  app/helpers/
+      create  app/views/qualificacoes
+      exists  app/views/layouts/
+      exists  test/functional/
+      exists  test/unit/
+      exists  test/unit/helpers/
+      exists  public/stylesheets/
+      create  app/views/qualificacoes/index.html.erb
+      create  app/views/qualificacoes/show.html.erb
+      create  app/views/qualificacoes/new.html.erb
+      create  app/views/qualificacoes/edit.html.erb
+      create  app/views/layouts/qualificacoes.html.erb
+   identical  public/stylesheets/scaffold.css
+      create  app/controllers/qualificacoes_controller.rb
+      create  test/functional/qualificacoes_controller_test.rb
+      create  app/helpers/qualificacoes_helper.rb
+      create  test/unit/helpers/qualificacoes_helper_test.rb
+       route  map.resources :qualificacoes
+  dependency  model
+      exists    app/models/
+      exists    test/unit/
+      exists    test/fixtures/
+        skip    app/models/qualificacao.rb
+   identical    test/unit/qualificacao_test.rb
+        skip    test/fixtures/qualificacoes.yml
+]0;rr1443@caelum126-11: ~/restauranterr1443@caelum126-11:~/restaurante$ script/generate scaffold --skip-migration qualificacao cliente_id:integer restaurante_id:innteger nota:float valor_gasto:float[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pcliente nome:string idade:integer
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crake routes[K
+(in /home/rr1443/restaurante)
+    qualificacoes GET    /qualificacoes(.:format)           {:action=>"index", :controller=>"qualificacoes"}
+                  POST   /qualificacoes(.:format)           {:action=>"create", :controller=>"qualificacoes"}
+ new_qualificacao GET    /qualificacoes/new(.:format)       {:action=>"new", :controller=>"qualificacoes"}
+edit_qualificacao GET    /qualificacoes/:id/edit(.:format)  {:action=>"edit", :controller=>"qualificacoes"}
+     qualificacao GET    /qualificacoes/:id(.:format)       {:action=>"show", :controller=>"qualificacoes"}
+                  PUT    /qualificacoes/:id(.:format)       {:action=>"update", :controller=>"qualificacoes"}
+                  DELETE /qualificacoes/:id(.:format)       {:action=>"destroy", :controller=>"qualificacoes"}
+         clientes GET    /clientes(.:format)                {:action=>"index", :controller=>"clientes"}
+                  POST   /clientes(.:format)                {:action=>"create", :controller=>"clientes"}
+      new_cliente GET    /clientes/new(.:format)            {:action=>"new", :controller=>"clientes"}
+     edit_cliente GET    /clientes/:id/edit(.:format)       {:action=>"edit", :controller=>"clientes"}
+          cliente GET    /clientes/:id(.:format)            {:action=>"show", :controller=>"clientes"}
+                  PUT    /clientes/:id(.:format)            {:action=>"update", :controller=>"clientes"}
+                  DELETE /clientes/:id(.:format)            {:action=>"destroy", :controller=>"clientes"}
+            nomes GET    /nomes(.:format)                   {:action=>"index", :controller=>"nomes"}
+                  POST   /nomes(.:format)                   {:action=>"create", :controller=>"nomes"}
+         new_nome GET    /nomes/new(.:format)               {:action=>"new", :controller=>"nomes"}
+        edit_nome GET    /nomes/:id/edit(.:format)          {:action=>"edit", :controller=>"nomes"}
+             nome GET    /nomes/:id(.:format)               {:action=>"show", :controller=>"nomes"}
+                  PUT    /nomes/:id(.:format)               {:action=>"update", :controller=>"nomes"}
+                  DELETE /nomes/:id(.:format)               {:action=>"destroy", :controller=>"nomes"}
+          bananas        /bananas                           {:action=>"new", :controller=>"restaurantes"}
+                         /:controller/:action/:id           
+                         /:controller/:action/:id(.:format) 
+]0;rr1443@cael

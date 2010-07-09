@@ -1,0 +1,20 @@
+<html>
+
+
+<h1>Listagem de livros</h1>
+
+	<table>
+	<tr>
+		<th>Nome</th>
+		<th>Isbn</th>
+			</tr>
+
+	<% for livro in @livros %>
+		
+		<tr>
+			<td><%=link_to 'Destroy', { :action => 'destroy', :id => livro} %></td>
+		</tr>
+	<% end %>
+	</table>
+
+	

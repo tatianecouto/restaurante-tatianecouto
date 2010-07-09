@@ -1,0 +1,272 @@
+Script started on Fri 02 Jul 2010 08:19:23 PM BRT
+]0;rr1443@caelum126-11: ~/restauranterr1443@caelum126-11:~/restaurante$ rake db:migratescript/generate model prato[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kconsole
+Loading development environment (Rails 2.3.2)
+>> irb
+>> exit
+=> #<IRB::Irb: @scanner=#<RubyLex:0xb6f5f350>, @context=#<IRB::Context:0xb6f5f724>, @signal_status=:IN_EVAL>
+>> exit[1Pirbexit[Kscript/console model
+SyntaxError: compile error
+(irb):2: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+	from (irb):2
+>> exot[K[K[K[K
+?> 
+?> 
+?> script console
+NameError: undefined local variable or method `console' for #<Object:0xb7c549ac>
+	from (irb):6
+>> cd
+NameError: undefined local variable or method `cd' for #<Object:0xb7c549ac>
+	from (irb):7
+>> exit
+]0;rr1443@caelum126-11: ~/restauranterr1443@caelum126-11:~/restaurante$ [H[2Jrr1443@caelum126-11:~/restaurante$ script/console
+Loading development environment (Rails 2.3.2)
+>> irb
+>> exit
+=> #<IRB::Irb: @scanner=#<RubyLex:0xb6fdb43c>, @context=#<IRB::Context:0xb6fdb810>, @signal_status=:IN_EVAL>
+>> exit
+]0;rr1443@caelum126-11: ~/restauranterr1443@caelum126-11:~/restaurante$ [H[2Jrr1443@caelum126-11:~/restaurante$ sci[K[K[Kirb
+irb(main):001:0> script c[K/[K[K/console
+NameError: undefined local variable or method `script' for main:Object
+	from (irb):1
+irb(main):002:0> [H[2Jirb(main):002:0> Qualificacao.restaurante
+NameError: uninitialized constant Qualificacao
+	from (irb):2
+irb(main):003:0> exit
+]0;rr1443@caelum126-11: ~/restauranterr1443@caelum126-11:~/restaurante$ irb
+irb(main):001:0> Qya[K[Kualificacao[K[K[K[K[K[K[K[K[K[K[K[Kqualificacao.restaurantes[K
+NameError: undefined local variable or method `qualificacao' for main:Object
+	from (irb):1
+irb(main):002:0> exit
+]0;rr1443@caelum126-11: ~/restauranterr1443@caelum126-11:~/restaurante$ r = qualificacoes.restaurante
+bash: r: command not found
+]0;rr1443@caelum126-11: ~/restauranterr1443@caelum126-11:~/restaurante$ r = qualificacoes.restaurante[1Pualificacoes.restauranteQualificacoes.restaurante[C[C[C[C[C[C[C[C[1Poes.restaurante[1Pes.restaurante[1Ps.restaurante[1P.restaurantec.restaurantea.restauranteo.restaurante
+bash: r: command not found
+]0;rr1443@caelum126-11: ~/restauranterr1443@caelum126-11:~/restaurante$ Qualificacao.restar[Kurante?
+bash: Qualificacao.restaurante?: command not found
+]0;rr1443@caelum126-11: ~/restauranterr1443@caelum126-11:~/restaurante$ Qualificacao.restaurante?
+bash: Qualificacao.restaurante?: command not found
+]0;rr1443@caelum126-11: ~/restauranterr1443@caelum126-11:~/restaurante$ irb
+irb(main):001:0> Qualificacao.restaurante?
+NameError: uninitialized constant Qualificacao
+	from (irb):1
+irb(main):002:0> exit
+]0;rr1443@caelum126-11: ~/restauranterr1443@caelum126-11:~/restaurante$ script/console Qualificacao.restaurante?
+Loading Qualificacao.restaurante? environment (Rails 2.3.2)
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/initializer.rb:365:in `read':Errno::ENOENT: No such file or directory - /home/rr1443/restaurante/config/environments/Qualificacao.restaurante?.rb
+>> exit
+]0;rr1443@caelum126-11: ~/restauranterr1443@caelum126-11:~/restaurante$ script/console Qualificacao.restaurante?[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Krestaurante.qualificacao?
+Loading restaurante.qualificacao? environment (Rails 2.3.2)
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/initializer.rb:365:in `read':Errno::ENOENT: No such file or directory - /home/rr1443/restaurante/config/environments/restaurante.qualificacao?.rb
+>> ec[Kxit
+]0;rr1443@caelum126-11: ~/restauranterr1443@caelum126-11:~/restaurante$ script/console restaurante.qualificacao?Qualificacao.restaurante?[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cirb[KQualificacao.restaurante?r = Qualificacao.restaurantequalificacoes.restauranteirb[Kscript/consolerake db:migratescript/generate model prato[12Prake db:migrate
+(in /home/rr1443/restaurante)
+]0;rr1443@caelum126-11: ~/restauranterr1443@caelum126-11:~/restaurante$ rake db:migratescript/console restaurante.qualificacao?
+Loading restaurante.qualificacao? environment (Rails 2.3.2)
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/initializer.rb:365:in `read':Errno::ENOENT: No such file or directory - /home/rr1443/restaurante/config/environments/restaurante.qualificacao?.rb
+>> [H[2J>> exit
+]0;rr1443@caelum126-11: ~/restauranterr1443@caelum126-11:~/restaurante$ script/console restaurante.qualificacao?[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Prake db:migratescript/console restaurante.qualificacao?Qualificacao.restaurante?[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+Loading development environment (Rails 2.3.2)
+>> q = Qualificacao.new :nome[K[K[K[Knota[K[K[K[Kvalor_gasd[K[K[K[Kgasto[K[K[K[K[K[K[K[K[K[K[Knota => 10
+=> #<Qualificacao id: nil, cliente_id: nil, restaurante_id: nil, nota: 10.0, valor_gasto: nil, created_at: nil, updated_at: nil>
+>> q = Qualificacao.new :nota => 10[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kvelid[K[K[K[K[Kv[Kr.valid?
+NameError: undefined local variable or method `r' for #<Object:0xb7c4b99c>
+	from (irb):2
+>> q.valid?
+NoMethodError: undefined method `cliente' for #<Qualificacao:0xb6f3df98>
+	from /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/attribute_methods.rb:260:in `method_missing'
+	from /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/validations.rb:397:in `send'
+	from /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/validations.rb:397:in `validates_each'
+	from /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/validations.rb:396:in `each'
+	from /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/validations.rb:396:in `validates_each'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/callbacks.rb:182:in `call'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/callbacks.rb:182:in `evaluate_method'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/callbacks.rb:166:in `call'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/callbacks.rb:90:in `run'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/callbacks.rb:90:in `each'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/callbacks.rb:90:in `send'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/callbacks.rb:90:in `run'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/callbacks.rb:276:in `run_callbacks'
+	from /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/validations.rb:1029:in `valid_without_callbacks?'
+	from /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/callbacks.rb:315:in `valid?'
+	from (irb):3
+>> cliente.valid?
+NameError: undefined local variable or method `cliente' for #<Object:0xb7c4b99c>
+	from (irb):4
+>> q.valid?[K[K[K[K[K[K[K[Knota.10
+SyntaxError: compile error
+(irb):5: no .<digit> floating literal anymore; put 0 before dot
+nota.10
+     ^
+(irb):5: syntax error, unexpected tINTEGER
+	from (irb):5
+>> [H[2J>> q.valid
+NoMethodError: undefined method `valid' for #<Qualificacao:0xb6f3df98>
+	from /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/attribute_methods.rb:260:in `method_missing'
+	from (irb):6
+>> r.save
+NameError: undefined local variable or method `r' for #<Object:0xb7c4b99c>
+	from (irb):7
+>> q = qualificacao[K[K[K[K[K[K[K[K[K[K[K[K[K Qualificacao.new :nota => 10
+=> #<Qualificacao id: nil, cliente_id: nil, restaurante_id: nil, nota: 10.0, valor_gasto: nil, created_at: nil, updated_at: nil>
+>> r.save
+NameError: undefined local variable or method `r' for #<Object:0xb7c4b99c>
+	from (irb):9
+>> r.save[C[C[Cq = Qualificacao.new :nota => 10[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Krestaurante.qualificacoes
+NameError: undefined local variable or method `restaurante' for #<Object:0xb7c4b99c>
+	from (irb):10
+>> ls[K[K[H[2J>> 
+?> exit
+]0;rr1443@caelum126-11: ~/restauranterr1443@caelum126-11:~/restaurante$ script/console 
+Loading development environment (Rails 2.3.2)
+>> c = Clinetes[K[K[K[K[Kentes.new :nome
+NameError: uninitialized constant Clientes
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:443:in `load_missing_constant'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:80:in `const_missing'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:92:in `const_missing'
+	from (irb):1
+>> c = Clientes.new :nome => [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+]0;rr1443@caelum126-11: ~/restauranterr1443@caelum126-11:~/restaurante$ irb[K[K[Kscript/console 
+Loading development environment (Rails 2.3.2)
+>> irb
+>> eci[K[Kxit
+=> #<IRB::Irb: @scanner=#<RubyLex:0xb703f43c>, @context=#<IRB::Context:0xb703f810>, @signal_status=:IN_EVAL>
+>> exit
+]0;rr1443@caelum126-11: ~/restauranterr1443@caelum126-11:~/restaurante$ script/console 
+Loading development environment (Rails 2.3.2)
+>> Qulificacoes[K[K[K[K[K[K[K[K[K[K[Kualificacoes.find(:all,[K)
+NameError: uninitialized constant Qualificacoes
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:443:in `load_missing_constant'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:80:in `const_missing'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:92:in `const_missing'
+	from (irb):1
+>> Qualificacoes all
+NameError: undefined local variable or method `all' for #<Object:0xb7c869ac>
+	from (irb):2
+>> exit
+]0;rr1443@caelum126-11: ~/restauranterr1443@caelum126-11:~/restaurante$ [H[2Jrr1443@caelum126-11:~/restaurante$ script/console 
+Loading development environment (Rails 2.3.2)
+>> c = clinet[K[K[Kente[K[K[K[K[K[K[KCliente.new
+=> #<Cliente id: nil, nome: nil, idade: nil, created_at: nil, updated_at: nil>
+>> c.nome = "Caelum"
+=> "Caelum"
+>> c.idade = 5
+=> 5
+>> c.save
+=> true
+>> r=[K = restaurante,[K[K[K[K[K[K[K[K[K[K[K[KRestaurante.new
+=> #<Restaurante id: nil, nome: nil, endereco: nil, created_at: nil, updated_at: nil, especialidade: nil>
+>> r.nome = "Fasano"
+=> "Fasano"
+>> r.endereco / [K[K[K = "Av. dos Autonomistas, 500"
+=> "Av. dos Autonomistas, 500"
+>> r.especialidade = "massa"
+=> "massa"
+>> r.save
+=> false
+>> q = Qualificacao.new
+=> #<Qualificacao id: nil, cliente_id: nil, restaurante_id: nil, nota: nil, valor_gasto: nil, created_at: nil, updated_at: nil>
+>> q.nota = 8
+=> 8
+>> q.nota = 8[K20
+=> 20
+>> q.nota = 20[K[K8
+=> 8
+>> q = valor_gasto = 40
+=> 40
+>> q.cliente -[K= c
+NoMethodError: undefined method `cliente=' for 40:Fixnum
+	from (irb):15
+>> q.cliente=c
+NoMethodError: undefined method `cliente=' for 40:Fixnum
+	from (irb):16
+>> q.Cliente = c
+NoMethodError: undefined method `Cliente=' for 40:Fixnum
+	from (irb):17
+>> q.restaurante = r
+NoMethodError: undefined method `restaurante=' for 40:Fixnum
+	from (irb):18
+>> q.cki[K[K[Kcliente "Caelum"
+NoMethodError: undefined method `cliente' for 40:Fixnum
+	from (irb):19
+>> q.cli[K[K[K[K[Kq.cliente "Caelum"[C[C[C[C[C[1Prestaurante = r[C[C[C[C[C[4PCliente = c[C[C[C[C[Crestaurante = r[C[C[C[C[C[4PCliente = c[C[C[C[C[C[2Pcliente=c[K[K = c
+NoMethodError: undefined method `cliente=' for 40:Fixnum
+	from (irb):20
+>> q.restaurante =r
+NoMethodError: undefined method `restaurante=' for 40:Fixnum
+	from (irb):21
+>> r.valid?
+=> false
+>> c.valid?
+=> true
+>> q.Restaurante = r
+NoMethodError: undefined method `Restaurante=' for 40:Fixnum
+	from (irb):24
+>> q.restaurante = r
+NoMethodError: undefined method `restaurante=' for 40:Fixnum
+	from (irb):25
+>> r.valid?
+=> false
+>> c[Kc.valid
+NoMethodError: undefined method `valid' for #<Cliente:0xb6fe28b8>
+	from /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/attribute_methods.rb:260:in `method_missing'
+	from (irb):27
+>> c.valid?
+=> true
+>> c.valid?[K[C[C[Cr.valid?[C[C[Cq.restaurante = r[C[C[C[C[CR[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pc.valid?[C[C[Cr.valid?[C[C[Cq.restaurante =r[C[C[C[C[C[3Pcliente = c
+NoMethodError: undefined method `cliente=' for 40:Fixnum
+	from (irb):29
+>> q.cliente = c[C[C[C[5Pc.valid?
+=> true
+>> 
+?> 
+?> 
+?> 
+?> 
+?> ;
+?> 
+?> nd[K[Kend
+SyntaxError: compile error
+(irb):38: syntax error, unexpected kEND, expecting $end
+	from (irb):38
+>> [H[2J>> c
+=> #<Cliente id: 1, nome: "Caelum", idade: 5, created_at: "2010-07-02 23:46:43", updated_at: "2010-07-02 23:46:43">
+>> r
+=> #<Restaurante id: nil, nome: "Fasano", endereco: "Av. dos Autonomistas, 500", created_at: nil, updated_at: nil, especialidade: "massa">
+>> r.sqve[K[K[K[K[K[Kr.save
+=> false
+>> r.save[K
+=> #<Restaurante id: nil, nome: "Fasano", endereco: "Av. dos Autonomistas, 500", created_at: nil, updated_at: nil, especialidade: "massa">
+>> r.errro[K[Kors.each {}º}º}[1P}[1P}|}|}f|},|}m|}[C }p}u}t}s} }"}"}f"}-"}m"}
+f-m
+=> {"nome"=>["nome já cadastrado"]}
+>> Ri[Kestaurante.first
+=> #<Restaurante id: 2, nome: "Fasano", endereco: "Av. dos Restaurantes, 126", created_at: "2010-07-02 01:11:09", updated_at: "2010-07-02 01:11:09", especialidade: "Comida Italiana">
+>> [H[2J>> Q[Kc [K[Kq = Qau[K[Kualificacao.new
+=> #<Qualificacao id: nil, cliente_id: nil, restaurante_id: nil, nota: nil, valor_gasto: nil, created_at: nil, updated_at: nil>
+>> q.noa [K[Kta  1[K[K= 1
+=> 1
+>> q.valor_gasto = 10
+=> 10
+>> q.restaurante = r
+=> #<Restaurante id: nil, nome: "Fasano", endereco: "Av. dos Autonomistas, 500", created_at: nil, updated_at: nil, especialidade: "massa">
+>> q.cliente = c
+=> #<Cliente id: 1, nome: "Caelum", idade: 5, created_at: "2010-07-02 23:46:43", updated_at: "2010-07-02 23:46:43">
+>> q.save
+=> false
+>> q.errors.each {}|}|}l|},|}[1P|},|}m|}[C }p}u}t}s} }"}"}l"}-"}m"}
+l-m
+l-m
+=> {"restaurante"=>["is invalid"], "restaurante_id"=>["can't be blank"]}
+>> q.errors.each {|l,m| puts "l-m"}[C[C[C[C[Csave[Kcliente = c[C[C[C[C[Crestaurante = r[Kre[K[Kres[K[K[KRestaurante.first
+=> #<Restaurante id: 2, nome: "Fasano", endereco: "Av. dos Restaurantes, 126", created_at: "2010-07-02 01:11:09", updated_at: "2010-07-02 01:11:09", especialidade: "Comida Italiana">
+>> q.save
+=> true
+>> p = pra[K[K[KPratos.new
+NameError: uninitialized constant Pratos
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:443:in `load_missing_constant'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:80:in `const_missing'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:92:in `const_missing'
+	from (irb):54
+>> p = prato[K[K[K[K[KPrato.new
+=> #<Prato id: nil, nome: nil, created_at: nil, updated_at: nil>
+>> p.nome = Maca[
